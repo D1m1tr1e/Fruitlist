@@ -61,4 +61,8 @@ export class FruitlistComponent {
       reviews: [{ name: "Kevin W.", text: "Ganz gut in der Regel!" }, { name: "Oliver J.", text: "Absoluter Favorit beim Frühstück" }],
     },
   ]
+
+  showName(name:string){
+    console.log('Name von der Frucht:',name);
+  }
 }
